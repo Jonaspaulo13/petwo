@@ -1,6 +1,6 @@
 [build]
-  command = "composer install && npm run build"  # Comando para compilar seu projeto PHP, se necessário
-  publish = "public"  # Diretório onde o resultado do build será colocado
+  command = "echo 'Nenhuma ação de compilação necessária'"
+  publish = "Site_TCC/Web" # Diretório onde estão os arquivos a serem publicados
 
 [[redirects]]
   from = "/*"
