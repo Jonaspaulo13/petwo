@@ -1,0 +1,8 @@
+[build]
+  command = "composer install && npm run build"  # Comando para compilar seu projeto PHP, se necessário
+  publish = "public"  # Diretório onde o resultado do build será colocado
+
+[[redirects]]
+  from = "/*"
+  to = "/index.php"
+  status = 200
